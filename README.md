@@ -54,8 +54,10 @@
 ├── json_benchmark_results_summary.csv (평가 결과 리포트)
 └── README.md
 
-# 1. 의존성 패키지 설치
+# How to Run
+
+## 1. 의존성 패키지 설치
 pip install transformers datasets evaluate accelerate scikit-learn pandas numpy
 
-# 2. 파이프라인 실행
+### 2. 파이프라인 실행
 python main.py
